@@ -1,0 +1,84 @@
+#Notifications {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+div.Notification {
+	display: table;
+	min-width: 250px;
+	box-shadow: 0 0 3px black;
+}
+
+div.Notification div.Content {
+	padding: 3px;
+	margin-left: 70px;
+	margin-right: 10px;
+}
+
+div.Notification h1 {
+	padding: 0;
+	margin: 0;
+}
+
+div.Notification.good {
+	background-color: #abffcd;
+}
+
+div.Notification.warning {
+	background-color: #ffc693;
+}
+
+div.Notification.error {
+	background-color: #ff9593;
+}
+
+div.Notification div.ProgressDiv {
+}
+
+div.Notification div.Image {
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-size: cover;
+}
+
+div.Notification div.ProgressDiv div {
+	height: 3px;
+	width: 0%;
+	box-shadow: 0 0 1px black;
+}
+
+div.Notification.good div.Content {
+	color: #009e0a;
+}
+
+div.Notification.warning div.Content {
+	color: #c55c00;
+}
+
+div.Notification.error div.Content {
+	color: #b30300;
+}
+
+div.Notification.good div.ProgressDiv div {
+	background-color: #009e0a;
+}
+
+div.Notification.warning div.ProgressDiv div {
+	background-color: #c55c00;
+}
+
+div.Notification.error div.ProgressDiv div {
+	background-color: #b30300;
+}
+
+// Basic Buttons - Leave out for notifications
+
+button {
+	background-color: #3498db;
+	color: white;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 5px;
+}

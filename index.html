@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>PlottyXY</title>
+		<link rel="stylesheet" href="notifications.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="Notifications"></div>
+		<div class="row">
+			<div class="column">
+				<button id="paste" class="button-69">Paste Coordinates</button>
+
+				<div class="comment">
+					<textarea
+						class="pasteArea"
+						id="pasteArea"
+						placeholder="X=438510225.0000  Y=1598461774.9998"
+					></textarea>
+				</div>
+			</div>
+
+			<div class="column">
+				<button id="copy" class="button-69">Copy Coordinates</button>
+				<table>
+					<tr>
+						<th>Sta.</th>
+						<th>N (Y)</th>
+						<th>E (X)</th>
+					</tr>
+					<tbody id="coordsTable">
+						<tr>
+							<td>1</td>
+							<td>Y<sub>1</sub></td>
+							<td>X<sub>1</sub></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Y<sub>2</sub></td>
+							<td>X<sub>2</sub></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Y<sub>3</sub></td>
+							<td>X<sub>3</sub></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<script src="notifications.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
